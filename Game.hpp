@@ -76,6 +76,11 @@ public:
     // destructor (executes after object is destroyed)
     virtual ~Game();
 
+    // When a function is declared as const (2nd const), 
+    // it can be called on any type of object. 
+    // Non-const functions can only be called by non-const objects. 
+    // 1st const means the function returns const value
+
     // check if game is running
     const bool isRunning() const;
 
